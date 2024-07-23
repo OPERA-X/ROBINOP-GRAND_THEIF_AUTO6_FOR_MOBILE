@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  color: white;
+}
+
+h2 {
+  text-align: left;
+  margin-bottom: 5px;
+  color: white;   
+}
+
+p {
+  text-align: left;
+  margin-bottom: 2px;
+  color: white;
+}
+
+.download-button a {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.download-button a:hover {
+  background-color: #45a049; /* Darker Green */
+}
+
+body {
+  background-image: url("https://assetsio.gnwcdn.com/Grand-Theft-Auto-6-sunset.jpg"); /* Replace with your image path */
+  background-size: 100% 100% /* Cover the entire viewport */
+  background-repeat: no-repeat; /* Prevent repetition */
+  background-position: center; /* Center the image */
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.social-link img {
+  width: 1px;
+  height: 1px;
+}
+
+.social-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
